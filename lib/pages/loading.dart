@@ -8,6 +8,6 @@ class Loading extends StatefulWidget {
 class _LoadingState extends State<Loading> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(body: Text('loading'));
   }
 }
