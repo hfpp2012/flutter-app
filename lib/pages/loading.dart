@@ -29,15 +29,16 @@ class _LoadingState extends State<Loading> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.blue[900],
-        body: Center(
-          child: Padding(
-            padding: const EdgeInsets.all(50.0),
-            child: SpinKitThreeBounce(
-              color: Colors.white,
-              size: 80.0,
-            ),
+      backgroundColor: Colors.blue[900],
+      body: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(50.0),
+          child: SpinKitThreeBounce(
+            color: Colors.white,
+            size: 80.0,
           ),
-        ));
+        ),
+      ),
+    );
   }
 }
